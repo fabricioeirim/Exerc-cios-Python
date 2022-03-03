@@ -1,0 +1,7 @@
+var1 = input('Digite algo: ')
+print('O tipo da variavel é: {}'.format(type(var1)))
+print('A variavel é um numero ? {}'.format(var1.isnumeric()))
+print('A variavel está em maiusculo ? {}'.format(var1.isupper()))
+print('A variavel está em alfabetica ? {}'.format(var1.isalpha()))
+print('Existe algum espaço ? {}'.format(var1.isspace()))
+print('Está capitalizado ? {}'.format(var1.istitle()))
